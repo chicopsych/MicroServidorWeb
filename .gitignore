@@ -1,0 +1,13 @@
+# Compilados
+dist/
+*.js.map
+
+# Configurações locais (não versionar)
+micro-server.config.json
+local.config.json
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
