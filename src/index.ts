@@ -1,7 +1,6 @@
-import {startMicro} from './scripts/micro-server-http.js';
-import type { MicroServerOptions } from './serverhttp/micro-server-http.js';
 import * as path from 'node:path';
 import * as fs from 'node:fs';
+import { startMicroServer } from './micro-server-http.js';
 
 function getArg(flag: string): string | undefined {
 	const idx = process.argv.indexOf(flag);
